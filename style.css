@@ -3,7 +3,7 @@ body{
     color: white;
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://wallpaperaccess.com/full/1554171.jpg");
     background-size: cover;
-    height: 2000px;
+    height: 3000px;
     margin: 0;
 }   
 
@@ -11,8 +11,7 @@ header{
     position: sticky;
     top: 0;
     left: 0;
-    width: 100%;
-    padding: 20px 100px;  
+  flex-wrap: wrap;
     display: flex;
     z-index: 100;
     justify-content: space-around;
@@ -21,11 +20,17 @@ header{
 
 }
 
-nav a, #logo{
+nav{
+    position: relative;
+    align-self: center;
+
+}
+
+nav a{
    
     color: rgb(250, 218, 54);
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
     margin-left: 35px;
     
@@ -52,11 +57,14 @@ nav a:hover::before{
 
 
 #logo{
-    
-    font-size: 32px;
+    color: rgb(250, 218, 54);
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    font-size: 52px;
     font-weight: 700;
     left: -150px;
-
+    font-family: 'Rubik Storm', cursive;
 }
 
 
@@ -82,8 +90,8 @@ nav a:hover::before{
    list-style:none;
    margin: 0px 0px 0px 50px;
    align-items: center;
-   top: -100px;
     font-size: 20px;
+    flex-direction: column;
     
 
 }
@@ -102,3 +110,69 @@ html{
     position: relative;
     top: -100px;
 }
+
+#button_div button{
+
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    transition: .3s;
+    background-color: rgba(250, 218, 54);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#button_div button a {
+
+    text-decoration: none;
+    color: black;
+    transition: .2s;
+   
+
+}
+
+#button_div button:hover {
+
+   box-shadow: 0px 5px 5px rgba(234, 204, 7, 0.264) ;
+   font-size: 25px;
+   cursor: pointer;
+}
+
+
+ #icons_div img{
+
+    width: 45px;
+    margin: 10PX;
+    transition: .2s;
+
+ }
+
+ #icons_div img:hover{
+
+    width: 50px;
+
+ }
+
+ #experianced_div{
+
+    display: flex;
+    list-style: inside;
+    text-align: left;
+    justify-content: center;
+    font-size: 25px;
+    flex-wrap: wrap;
+ }
+
+ #experianced_div div{
+
+    margin: 50px;
+   
+ }
+
+ #title h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 55px;
+    color: rgb(250, 218, 54);
+ }
+
