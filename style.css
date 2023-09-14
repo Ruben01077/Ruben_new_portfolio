@@ -84,8 +84,12 @@ nav a:hover::before{
 
     width: 800px;
     filter: drop-shadow(3px 5px 20px rgba(250, 218, 54));
-    margin: 0px 120px 0px 0px;
+    margin: 0px 0px 0px 0px;
     
+}
+
+.img_div{
+    width: 800px;
 }
 
 #info_div{
