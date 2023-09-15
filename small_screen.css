@@ -51,8 +51,19 @@
 
     .navbar_links li{
         text-align: center;
+        padding: 5px;
+
        
     } 
+
+    .navbar_links li a:hover {
+        
+        font-size: 28px;
+        transition: ease-in .3s;
+        text-decoration: underline;
+    }
+    
+   
 
     .navbar_links.active{
         display: flex;
