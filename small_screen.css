@@ -1,4 +1,4 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
 
     #main_img {
 
@@ -15,6 +15,54 @@
 
     #experianced_div {
         margin-left: 10%;
+    }
+
+    .navbar_links{
+        display: none;
+        width: 100%;
+
+    }
+
+    .toggle_button{
+        display: flex;
+    }
+
+    nav a:hover::before {
+
+        width: 0%;
+        box-shadow: 0px 0px 0px rgb(255, 255, 255);
+    
+    }
+    
+    /* .nav_div{
+       
+        flex-direction: column;
+       
+      
+    } */
+   
+    .navbar_links ul{
+        width: 100%;
+        flex-direction: column;
+      
+
+    } 
+
+    .navbar_links li{
+        text-align: center;
+        
+    } 
+
+    .navbar_links.active{
+        display: flex;
+        justify-content: start;
+        position: relative;
+        left: -40px;
+       
+    }
+
+    .logo{
+     margin-left: 0px;
     }
 
 

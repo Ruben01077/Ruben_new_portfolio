@@ -1,13 +1,13 @@
-body{
+body {
     background-color: rgb(43, 42, 42);
     color: white;
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://wallpaperaccess.com/full/1554171.jpg");
     background-size: cover;
     height: 3000px;
     margin: 0;
-}   
+}
 
-header{
+.nav_div {
     position: sticky;
     top: 0;
     left: 0;
@@ -17,21 +17,28 @@ header{
     justify-content: space-around;
     backdrop-filter: blur(15px);
     overflow: hidden;
-   
+
 
 }
 
-nav{
+.nav_div ul{
+    display: flex;
+}
+.nav_div ul li{
+  list-style: none;
+}
+
+.navbar_links {
     position: relative;
     align-self: center;
     right: -10%;
-    display: inline;
+    display: flex;
     flex-wrap: wrap;
-  
+
 }
 
-nav a{
-   
+nav a {
+
     color: rgb(250, 218, 54);
     text-decoration: none;
     font-size: 20px;
@@ -41,18 +48,18 @@ nav a{
 
 }
 
-nav a::before{
+nav a::before {
     content: "";
     position: absolute;
     top: 100%;
     left: 0px;
     width: 0px;
     height: 2px;
-    background: rgb(250, 218, 54);;
+    background: rgb(250, 218, 54);
     transition: .5s;
 }
 
-nav a:hover::before{
+nav a:hover::before {
 
     width: 100%;
     box-shadow: 1px 1px 1px rgb(255, 255, 255);
@@ -60,19 +67,18 @@ nav a:hover::before{
 }
 
 
-#logo{
+.logo {
     color: rgb(250, 218, 54);
     text-decoration: none;
     font-size: 20px;
     position: relative;
     font-size: 52px;
     font-weight: 700;
-    left: -150px;
     font-family: 'Rubik Storm', cursive;
 }
 
 
-#home_div{
+#home_div {
 
     display: flex;
     position: relative;
@@ -80,14 +86,14 @@ nav a:hover::before{
     align-items: center;
     flex-wrap: wrap;
     height: 800px;
-   
-    
+
+
 }
 
-#main_img{
+#main_img {
 
     width: 800px;
-    filter: drop-shadow(3px 5px 20px  rgb(250, 218, 54)) ;
+    filter: drop-shadow(3px 5px 20px rgb(250, 218, 54));
     margin: 0px 0px 0px 0px;
     pointer-events: none;
     opacity: 0;
@@ -96,21 +102,21 @@ nav a:hover::before{
 
 
 
-#info_div{
+#info_div {
     display: flex;
     position: relative;
-   list-style:none;
-   margin: 0px 0px 0px 50px;
-   align-items: center;
+    list-style: none;
+    margin: 0px 0px 0px 50px;
+    align-items: center;
     font-size: 20px;
     flex-direction: column;
-    
+
 
 }
 
 
-#info_div li:nth-child(2){
-    
+#info_div li:nth-child(2) {
+
     font-size: 50px;
     background: linear-gradient(to top, rgb(244, 215, 67), rgb(137, 92, 3));
     -webkit-background-clip: text;
@@ -121,26 +127,27 @@ nav a:hover::before{
 }
 
 @keyframes fade {
-    0%{
+    0% {
         opacity: 0;
     }
-    100%{
+
+    100% {
 
         opacity: 1;
 
     }
 }
 
-html{
-    scroll-behavior:smooth;
+html {
+    scroll-behavior: smooth;
 }
 
-#home_section{
+#home_section {
     position: relative;
     top: -100px;
 }
 
-#button_div button{
+#button_div button {
 
     font-size: 20px;
     margin: 10px;
@@ -158,35 +165,35 @@ html{
     text-decoration: none;
     color: black;
     font-weight: 600;
- 
-   
+
+
 
 }
 
 #button_div button:hover {
 
-   box-shadow: 0px 5px 5px rgba(234, 204, 7, 0.264) ;
-   font-size: 25px;
-   cursor: pointer;
-   font-weight: 900;
+    box-shadow: 0px 5px 5px rgba(234, 204, 7, 0.264);
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 900;
 }
 
 
- #icons_div img{
+#icons_div img {
 
     width: 45px;
     margin: 10PX;
     transition: .2s;
 
- }
+}
 
- #icons_div img:hover{
+#icons_div img:hover {
 
     width: 50px;
 
- }
+}
 
- #experianced_div{
+#experianced_div {
 
     display: flex;
     list-style: inside;
@@ -194,38 +201,45 @@ html{
     justify-content: center;
     font-size: 25px;
     flex-wrap: wrap;
-    
-
- }
-
- #experianced_div div{
 
 
-   margin: 0px 25px 0px 25px;
-   
- }
+}
 
- #title h1{
+#experianced_div div {
+
+
+    margin: 0px 25px 0px 25px;
+
+}
+
+#title h1 {
     margin-top: 150px;
     text-align: center;
     font-size: 55px;
     color: rgb(250, 218, 54);
 
- }
-
-#form_div{
-    display: flex;
-    
-}
-
-form{
-    flex-wrap: wrap;
 }
 
 
-#backend_div {
 
-  
-   
+.toggle_button {
+
+    position: absolute;
+    width: 30px;
+    height: 21px;
+    display: none;
+    top: 1.5rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.toggle_button .bar {
+
+    height: 3px;
+    width: 100%;
+    background-color: rgb(250, 218, 54);
+    border-radius: 10px;
 
 }
