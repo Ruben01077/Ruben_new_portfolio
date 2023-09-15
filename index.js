@@ -7,13 +7,3 @@ toggle_button.addEventListener("click", () => {
 
 })
 
-
-navbar_links.addEventListener("click", () => {
-
-    if (navbar_links.classList.toggle("active")){
-
-        navbar_links.style.display = "none"
-
-    }
-
-})
