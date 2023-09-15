@@ -94,10 +94,7 @@ nav a:hover::before{
     animation: fade 1.5s ease-in 0.3s forwards;
 }
 
-.img_div{
-    width: 800px;
-    
-}
+
 
 #info_div{
     display: flex;
@@ -197,12 +194,14 @@ html{
     justify-content: center;
     font-size: 25px;
     flex-wrap: wrap;
+    
 
  }
 
  #experianced_div div{
 
-    margin: 50px;
+
+   margin: 0px 25px 0px 25px;
    
  }
 
@@ -224,3 +223,9 @@ form{
 }
 
 
+#backend_div {
+
+  
+   
+
+}
