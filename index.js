@@ -8,9 +8,13 @@ toggle_button.addEventListener("click", () => {
 })
 
 
+
+
+
+
 navbar_links.addEventListener("click", () => {
 
-    if (navbar_links.classList.toggle("active")){
+    if (navbar_links.classList.toggle("active"), (screen.width < 1000)){
 
         navbar_links.style.display = "none"
 

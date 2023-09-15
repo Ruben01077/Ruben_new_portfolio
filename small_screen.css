@@ -20,11 +20,12 @@
     .navbar_links{
         display: none;
         width: 100%;
-
+      
     }
 
     .toggle_button{
         display: flex;
+       
     }
 
     nav a:hover::before {
@@ -50,7 +51,7 @@
 
     .navbar_links li{
         text-align: center;
-        
+       
     } 
 
     .navbar_links.active{
@@ -58,12 +59,21 @@
         justify-content: start;
         position: relative;
         left: -40px;
-       
+        
     }
 
     .logo{
      margin-left: 0px;
+    
     }
+
+    #experience_div, div, #info_div {
+        font-size: 19px;
+    }
+     #info_div li:nth-child(2){
+
+        font-size: 45px;
+     }
 
 
 }
