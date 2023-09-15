@@ -20,12 +20,11 @@
     .navbar_links{
         display: none;
         width: 100%;
-      
+
     }
 
     .toggle_button{
         display: flex;
-       
     }
 
     nav a:hover::before {
@@ -51,6 +50,7 @@
 
     .navbar_links li{
         text-align: center;
+
         padding: 5px;
 
        
@@ -58,8 +58,7 @@
 
     .navbar_links li a:hover {
         
-        font-size: 28px;
-        transition: ease-in .3s;
+      
         text-decoration: underline;
     }
     
@@ -70,21 +69,17 @@
         justify-content: start;
         position: relative;
         left: -40px;
-        
+       
     }
 
     .logo{
      margin-left: 0px;
-    
     }
 
-    #experience_div, div, #info_div {
-        font-size: 19px;
-    }
-     #info_div li:nth-child(2){
+    #title h1{
 
-        font-size: 45px;
-     }
+        margin-top: 650px;
+    }
 
 
 }
