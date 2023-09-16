@@ -39,11 +39,14 @@
     .navbar_links{
         display: none;
         width: 100%;
+      
 
     }
 
     .toggle_button{
         display: flex;
+     
+       
     }
 
     nav a:hover::before {
@@ -69,7 +72,6 @@
 
     .navbar_links li{
         text-align: center;
-
         padding: 5px;
 
        
@@ -88,6 +90,7 @@
         justify-content: start;
         position: relative;
         left: -40px;
+      
        
     }
 
@@ -113,6 +116,15 @@
         position: relative;
         top: -50px;
     }
+
+        .light_and_dark_div{
+
+            display: flex;
+            justify-content: center;
+         
+            
+
+        }
 
 }
 

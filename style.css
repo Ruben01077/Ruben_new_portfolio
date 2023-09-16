@@ -31,7 +31,7 @@ body {
 .navbar_links {
     position: relative;
     align-self: center;
-    right: -10%;
+    right: -5%;
     display: flex;
     flex-wrap: wrap;
 
@@ -68,7 +68,9 @@ nav a:hover::before {
 
 
 .logo {
-    color: rgb(250, 218, 54);
+    background: linear-gradient(to top, rgb(244, 215, 67), rgb(137, 92, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none;
     font-size: 20px;
     position: relative;
@@ -153,7 +155,7 @@ html {
     padding: 10px 20px 10px 20px;
     border-radius: 50px;
     transition: .3s;
-    background: linear-gradient(to right, rgba(250, 218, 54), rgb(172, 121, 3));
+    background: linear-gradient(to right, rgb(208, 174, 5), rgb(172, 121, 3));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Times New Roman', Times, serif;
@@ -164,8 +166,6 @@ html {
     text-decoration: none;
     color: black;
     font-weight: 600;
-
-
 
 }
 
@@ -200,7 +200,6 @@ html {
     justify-content: center;
     font-size: 25px;
     flex-wrap: wrap;
-
 
 }
 
@@ -242,3 +241,19 @@ html {
     border-radius: 10px;
 
 }
+
+body.light_mode{
+
+    background-image: url("https://images.unsplash.com/photo-1482977036925-e8fcaa643657?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3072&q=80");
+
+}
+
+.navbar_links img{
+
+width: 1.5rem;
+cursor: pointer;
+margin: 0rem 0rem 0rem 1.5rem;
+
+
+}
+
