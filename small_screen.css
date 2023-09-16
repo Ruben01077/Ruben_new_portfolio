@@ -85,4 +85,9 @@
         position: relative;
     }
 
+    #info_div li:nth-child(2){
+
+        font-size: 45px;
+    }
+
 }
