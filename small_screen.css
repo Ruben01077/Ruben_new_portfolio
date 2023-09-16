@@ -90,4 +90,9 @@
         font-size: 45px;
     }
 
+    #info_div{
+        position: relative;
+        top: -50px;
+    }
+
 }
