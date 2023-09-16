@@ -1,15 +1,19 @@
 @media only screen and (max-width: 1000px) {
 
-    #main_img {
+  
+    #img_div{
 
-        width: 480px;
-
-    }
-    
+        width: 100%
+ 
+     }
+ 
+     #main_img{
+         width: 100%  
+     }
 
     #info_div {
 
-        margin: 0px;
+      margin-top: 50px;
 
 
     }
@@ -95,5 +99,15 @@
         position: relative;
         top: -50px;
     }
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+
+  
+
+    
 
 }
