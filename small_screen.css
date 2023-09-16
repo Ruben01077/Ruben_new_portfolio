@@ -77,9 +77,12 @@
     }
 
     #title h1{
-
-        margin-top: 250px;
+        margin-top: 20px;
+       
     }
 
+    .nav_div {
+        position: relative;
+    }
 
 }
