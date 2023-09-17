@@ -1,8 +1,9 @@
-const toggle_button = document.getElementsByClassName("toggle_button")[0]
+const navbar = document.querySelector(".navbar")
+const menu = document.querySelector("#menu")
 const navbar_links = document.getElementsByClassName("navbar_links")[0]
 const nav_div = document.getElementsByClassName("nav_div")[0]
-const dark_mode = document.getElementsByClassName("dark_mode")[0]
-const light_mode = document.getElementsByClassName("light_mode")[0]
+const dark_mode = document.querySelector(".dark")
+const light_mode = document.querySelector(".light")
 const logo = document.getElementsByClassName("logo")[0]
 const experiance_title = document.getElementById("title").querySelector("h1")
 const home = document.getElementsByClassName("home")[0]
@@ -14,11 +15,11 @@ const contact_me = document.getElementsByClassName("contact_me")[0]
 const body = document.body
 
 
-toggle_button.addEventListener("click", () => {
+    menu.addEventListener("click", ()=> {
 
-    navbar_links.classList.toggle("active")
+        navbar.classList.toggle("open")
 
-})
+    })
 
 
 function enable_light_mode(){
@@ -42,7 +43,7 @@ dark_mode.addEventListener("click", () => {
     experiance.style.color = "rgb(250, 218, 54)"
     about.style.color = "rgb(250, 218, 54)"
     contact_me.style.color = "rgb(250, 218, 54)"
-
+   
 })
 
 light_mode.addEventListener("click", () => {
@@ -54,5 +55,6 @@ light_mode.addEventListener("click", () => {
     experiance.style.color = "black"
     about.style.color = "black"
     contact_me.style.color = "black"
+   
     
 })

@@ -1,3 +1,8 @@
+
+:root{
+    --yellow: rgb(250, 218, 54);
+}
+
 body {
     background-color: rgb(43, 42, 42);
     color: white;
@@ -67,17 +72,7 @@ nav a:hover::before {
 }
 
 
-.logo {
-    background: linear-gradient(to top, rgb(244, 215, 67), rgb(137, 92, 3));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-decoration: none;
-    font-size: 20px;
-    position: relative;
-    font-size: 52px;
-    font-weight: 700;
-    font-family: 'Rubik Storm', cursive;
-}
+
 
 
 #home_div {
@@ -207,6 +202,7 @@ html {
 
 
     margin: 0px 25px 0px 25px;
+    
 
 }
 
@@ -256,4 +252,92 @@ margin: 0rem 0rem 0rem 1.5rem;
 
 
 }
+
+#front_end_div li, #backend_div li{
+    list-style: circle;
+}
+
+
+
+
+/* nav bar style */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+}
+
+nav{
+   
+    display: flex;
+    justify-content: space-around;   
+    backdrop-filter: blur(15px);
+  
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    color: var(--yellow);
+    
+
+}
+
+
+.navbar li{
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    align-self: center;
+    
+    
+}
+
+.navbar li a{
+    font-size: 1.5rem;
+}
+
+
+#menu{
+   color: var(--yellow);
+   font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+.light_and_dark_div {
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.light_and_dark_div img,i {
+   
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.logo {
+    background: linear-gradient(to top, rgb(244, 215, 67), rgb(137, 92, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    font-size: 52px;
+    font-weight: 700;
+    font-family: 'Rubik Storm', cursive;
+}
+
+.logo:hover::before {
+
+    width: 0%;
+    box-shadow: 1px 1px 1px rgb(255, 255, 255);
+
+}
+
+
+
 
