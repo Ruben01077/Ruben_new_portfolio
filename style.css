@@ -1,5 +1,11 @@
 *{
     font-family: 'Times New Roman', Times, serif;
+   
+}
+
+html{
+
+    margin-bottom: 100px;
 }
 
 :root{
@@ -12,7 +18,7 @@ body {
     color: white;
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("https://wallpaperaccess.com/full/1554171.jpg");
     background-size: cover;
-    height: 3000px;
+  
     margin: 0;
 }
 
