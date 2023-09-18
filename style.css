@@ -1,3 +1,6 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
 
 :root{
     --yellow: rgb(250, 218, 54);
@@ -354,7 +357,7 @@ nav{
 
 }
 
-/* Contact Form ___________________________*/
+/* Contact Form Start___________________________*/
 
 .contact_form_div{
 
@@ -430,4 +433,39 @@ textarea{
     -webkit-box-shadow: 0 0 0 1000px #000000 inset !important;
     -webkit-text-fill-color: rgb(208, 174, 5) !important;
     margin-bottom: 1rem;
+}
+
+/* Contact Form End___________________________*/
+
+/* About Me start___________________________*/
+
+.about_div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    padding-left: 17rem;
+    padding-right: 17rem;
+   
+
+}
+.about_div h1{
+
+    font-size: var(--title_size);
+    background: linear-gradient(to right, rgb(208, 174, 5), rgb(172, 121, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.about_div p {
+    font-size: 1.5rem;
+    margin-top: 80px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
 }

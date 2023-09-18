@@ -233,5 +233,21 @@ nav{
     }
 }
 
+.about_div {
+   
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 8rem;
+   
+
+}
+
+.about_div p {
+   
+   
+    margin-top: 1.1rem;
+   
+
+}
 
 }
