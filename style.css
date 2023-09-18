@@ -1,6 +1,7 @@
 
 :root{
     --yellow: rgb(250, 218, 54);
+    --title_size: 4rem;
 }
 
 body {
@@ -44,7 +45,10 @@ body {
 
 nav a {
 
-    color: rgb(250, 218, 54);
+    background: linear-gradient(to right, rgb(158, 133, 5), rgb(172, 121, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     font-size: 20px;
     position: relative;
@@ -60,7 +64,7 @@ nav a::before {
     left: 0px;
     width: 0px;
     height: 2px;
-    background: rgb(250, 218, 54);
+    background: linear-gradient(to right, rgb(166, 139, 4), rgb(172, 121, 3));
     transition: .5s;
 }
 
@@ -209,10 +213,15 @@ html {
 #title h1 {
     margin-top: 250px;
     text-align: center;
-    font-size: 55px;
-    color: rgb(250, 218, 54);
+    font-size: var(--title_size);
+    background: linear-gradient(to right, rgb(208, 174, 5), rgb(172, 121, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
 
 }
+
+
 
 
 
@@ -345,6 +354,80 @@ nav{
 
 }
 
+/* Contact Form ___________________________*/
+
+.contact_form_div{
+
+    width: 25rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 10rem;
+
+ 
+}
+
+.contact_form{
+   
+display: flex;
+flex-direction: column;
 
 
 
+}
+
+input, textarea{
+
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.482);
+    border-radius: 10px;
+    margin: 4px;
+    padding: 10px;
+      -webkit-text-fill-color: rgb(208, 174, 5) !important;
+}
+
+.submit_button{
+
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+  
+    transition: .5s;
+    background: linear-gradient(to right, rgb(208, 174, 5), rgb(172, 121, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+
+}
+
+.submit_button:hover{
+    box-shadow: 0px 5px 5px rgba(234, 204, 7, 0.264);
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 900;
+
+}
+
+.contact_title{
+    background: linear-gradient(to right, rgb(208, 174, 5), rgb(172, 121, 3));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: var(--title_size);
+
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #000000 inset !important;
+  -webkit-text-fill-color: rgb(208, 174, 5) !important;
+}
+
+textarea{
+
+    -webkit-box-shadow: 0 0 0 1000px #000000 inset !important;
+    -webkit-text-fill-color: rgb(208, 174, 5) !important;
+    margin-bottom: 1rem;
+}

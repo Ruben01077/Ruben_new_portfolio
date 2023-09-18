@@ -17,32 +17,7 @@
 <body>
 
     
-      
-    <!-- <nav class="nav_div">
-        <div class="logo_div">
-            <a class="logo" href="">RM</a>
-        </div>
-        <a href="#" class="toggle_button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-         
-        <div class="navbar_links">
-            <ul class="nav_un_list">
-                <li> <a class="home" href="#">Home</a></li>
-                <li> <a class="experiance" href="#experiance_section">Experiance</a></li>
-                <li> <a class="about" href="#">About</a></li>
-                <li> <a class="contact_me" href="#">Contact Me</a></li>
-                <div class="light_and_dark_div">    
-                    <img class="dark_mode" src="images/dark.png"></img>
-                    <img class="light_mode" src="images/light.png"></img>    
-                </div>
-            </ul>
-    
-        </div>
-    
-    </nav> -->
+
        
     <header>
         <nav>
@@ -51,7 +26,7 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#experiance_section">Experiance</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <li><a href="#contact">Contact Me</a></li>
             </ul>
             <div class="light_and_dark_div">    
                 <img class="dark" src="images/dark.png" width="25.5rem"></img>
@@ -83,7 +58,7 @@
             <div id="button_div">
 
                 <a href=""><button>Download CV</button></a>
-                <a href=""><button>Hire Me</button></a>
+                <a href="#contact"><button>Hire Me</button></a>
 
             </div>
             <div id="icons_div">
@@ -127,6 +102,20 @@
             </div>
             
 
+        </div>
+
+        <section id="contact"> </section>
+
+        <div class="contact_form_div">
+            <h1 class="contact_title">Get In Touch</h1>
+            <form class="contact_form"  action="https://formspree.io/f/mnqkzgpv" method="POST">
+                <input type="text" name="firts_name" placeholder="First Name" required>
+                <input type="text" name="last_name" placeholder="Last Name" required>
+                <input type="email" name="email" placeholder="Email" required >
+                <input type="number" name="number" placeholder="Phone Number">
+                <textarea name="message" cols="30" rows="5" placeholder="Enter text here" autocomplete="off"></textarea>
+                <button class="submit_button" type="submit">Submit</button>
+            </form>
         </div>
 
 
