@@ -1,5 +1,7 @@
 const navbar = document.querySelector(".navbar")
+const xmark = document.querySelector("#xmark")
 const menu = document.querySelector("#menu")
+const menu_button = document.querySelector(".menu_button")
 const navbar_links = document.getElementsByClassName("navbar_links")[0]
 const nav_div = document.getElementsByClassName("nav_div")[0]
 const dark_mode = document.querySelector(".dark")
@@ -15,11 +17,39 @@ const contact_me = document.getElementsByClassName("contact_me")[0]
 const body = document.body
 
 
+    
+
     menu.addEventListener("click", ()=> {
 
-        navbar.classList.toggle("open")
 
+        navbar.classList.toggle("open")
+     
+     
+       
+      
+        
     })
+
+   
+    
+    // xmark.addEventListener("click", ()=> {
+    
+    //     navbar.classList.toggle("close")
+    //     xmark.style.display = "none"
+    //     menu.style.display = "flex"
+      
+    // })
+    
+
+
+
+
+
+  
+
+    
+
+  
 
 
 function enable_light_mode(){

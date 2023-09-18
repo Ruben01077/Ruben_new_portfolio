@@ -305,6 +305,13 @@ nav{
   cursor: pointer;
   display: none;
 }
+
+#xmark{
+    color: var(--yellow);
+    font-size: 1.5rem;
+   cursor: pointer;
+   display: none;
+}
 .light_and_dark_div {
     display: flex;
     align-items: center;
