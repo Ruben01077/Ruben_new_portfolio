@@ -153,7 +153,7 @@ nav{
    height: 100vh;
    display: none;
    flex-direction: column;
-   justify-content: space-evenly;
+   
     background-color: rgba(107, 106, 106, 0.524);
     margin-top: 0px;
     padding-left: 5px;
@@ -189,6 +189,8 @@ nav{
     padding-top: 5px;
     padding-bottom: 5px;
     box-shadow: 0px 0px 10px black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 
