@@ -3,6 +3,12 @@
    
 }
 
+#thumbnail{
+
+    display: none;
+    
+}
+
 html{
 
     margin-bottom: 100px;
